@@ -10,6 +10,7 @@ public class Library {
         for(Book book: shelf){
             System.out.println("Title: "+ book.getTitle());
             System.out.println("Author: "+ book.getAuthor());
+            System.out.println("Publisher "+ book.getPublisher());
             System.out.println("");
         }
     }

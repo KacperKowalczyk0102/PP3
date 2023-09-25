@@ -23,6 +23,10 @@ public class AudioBook extends Book {
     @Override
     public void display() {
         super.display();
-        System.out.println("Ile trwa: "+ minutes +":" + seconds);
+        System.out.println("Title = " + getTitle());
+        System.out.println("Author = " + getAuthor());
+        System.out.println("Seconds = " + this.seconds);
+        System.out.println("Minutes " + this.minutes);
+        System.out.println("Publisher : " + this.getPublisher());
     }
 }

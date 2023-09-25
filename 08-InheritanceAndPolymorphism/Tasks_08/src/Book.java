@@ -17,12 +17,19 @@ public class Book {
     public String getAuthor(){
         return this.author;
     }
+    public Publisher getPublisher(){
+        return publisher;
+    }
+    public void setPublisher(Publisher publisher){
+        this.publisher = publisher;
+    }
     public void setAuthor(String author){
         this.author = author;
     }
     public void display(){
         System.out.println("Tytuł: "+ this.title);
         System.out.println("Autor: "+ this.author);
+        System.out.println("Wydawca: "+ this.publisher);
         System.out.println("");
     }
 }

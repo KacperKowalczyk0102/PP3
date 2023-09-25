@@ -18,6 +18,7 @@ public class Ebook extends Book {
         System.out.println("Title = " + getTitle());
         System.out.println("Author = " + getAuthor());
         System.out.println("filename = " + this.fileName);
+        System.out.println("Publisher = "+ this.getPublisher());
         System.out.println();
     }
 }
