@@ -15,4 +15,11 @@ public class ShoppingList {
         }
         return returnString.substring(1);
     }
+    public int total(){
+        int totalProduct = 0;
+        for (Product product : listOfProducts){
+            totalProduct+= product.getQuantity();
+        }
+        return totalProduct;
+    }
 }
